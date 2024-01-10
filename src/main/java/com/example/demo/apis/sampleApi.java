@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class sampleApi {
 @GetMapping
     public ResponseEntity<String> get(){
-    return ResponseEntity.ok("hello there");
+    return ResponseEntity.ok("hello master");
 }
 }
